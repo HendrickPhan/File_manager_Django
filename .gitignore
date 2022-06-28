@@ -1,0 +1,8 @@
+/env
+__pycache__/
+/file_manager_django/file_manager_django/media/
+/file_manager_django/media/
+.vscode/settings.json
+file_manager_django/_data/media
+/deployment/prod/*
+/deployment/test/*.tar.gz

@@ -1,0 +1,14 @@
+Description="Filer auto start"
+[Service]
+Type=simple
+ExecStart=/home/fi/projects/filer.vipn.net/env/bin/uwsgi --ini /home/fi/projects/filer.vipn.net/deployment/test/uwsgi.ini
+Restart=on-failure
+RestartSec=5
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
