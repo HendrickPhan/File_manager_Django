@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'filer',
         'USER': 'filer',
         'PASSWORD': 'HAQ@BF8X4jQ9qA',
-        'HOST': '103.234.36.36',
+        'HOST': '0.0.0.0',
         'PORT': '3306',
     }
 }
